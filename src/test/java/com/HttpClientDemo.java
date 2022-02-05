@@ -1,4 +1,4 @@
-package demo;
+package com;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -6,9 +6,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.CloseableHttpResponse;
-import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.*;
@@ -23,7 +21,7 @@ import com.alibaba.fastjson.JSONObject;
  */
 public class HttpClientDemo {
   @Test
-  public void testbaidu() throws IOException {
+  public void testuat() throws IOException {
 	  //save result
 	  String result;
 	 // HttpGet get = new HttpGet("http://www.weather.com.cn/data/sk/101110101.html");
