@@ -57,7 +57,7 @@ public class HttpClientDemo {
 
 	  //return response
 	  result = EntityUtils.toString(response.getEntity(),"utf-8");
-	  System.out.print(result);
+	  System.out.println(result);
 	  System.out.println(response.getStatusLine());
 	  response.close();
 	  client.close();
